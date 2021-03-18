@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+body{
+		margin:0 !important;
+}
+#mainpart{
+	background-color:#f2f2f2;	
+	text-align: center;
+	width:100%;
+	display: block;
+	}
+	
+input{
+	margin:10px auto;
+	display: inline;
+}
+	
+select, textarea{
+	display: block;
+	margin:10px auto;
+}
