@@ -1,0 +1,73 @@
+@charset "UTF-8";
+*{
+	font-family: var(--mdc-typography-button-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+}
+
+body {
+	background-color: #121212 !important;
+	margin: 10px;
+	color: grey;
+	
+}
+
+h1, h3, .my-card, .my-input-text {
+	text-align: center;
+}
+
+h1, h2{
+	color:#BB86FC;
+}
+
+h3{
+	color:#BB86FC;
+	margin-bottom:1px;
+}
+
+.my-button {
+	background-color: #03DAC5 !important;
+	color: #121212 !important;
+	margin: 10px;
+}
+
+.my-button-div, .my-input-div{
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+}
+
+
+
+.my-input {
+	margin: 10px;
+	border-radius: 4px !important;
+	height: 36px;
+	background-color:#303030 !important;
+	box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.my-input-text{
+	color:#BB86FC !important;
+}
+
+.intro {
+	margin-bottom: 10px !important;
+}
+
+.intro, .my-card, .weather-div {
+	background: #212121; /*background: #1F1B24;*/
+	height: 50%;
+	opacity: 1.8;
+}
+
+#previous-search p{
+	margin: 5px;
+}
+
+.last-update{
+		opacity:0.4;
+}
+
+.weather-div{
+	text-align: center;
+	border-radius: 4px;
+}
