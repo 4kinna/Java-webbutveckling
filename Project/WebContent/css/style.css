@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+body {
+	font-weight: 300 !important;
+	line-height: 1.2;
+}
+
+.d-flex {
+	display: block !important;
+}
+
+.mb-0 {
+	margin-bottom: 10px !important;
+}
+
+.my-main {
+	margin: 48px auto 30px auto;
+	max-width: 600px;
+}
+
+.my-feed {
+	margin: 40px 0px;
+}
+
+.my-button {
+	color: #333 !important;
+	padding: 2px 5px;
+	margin-bottom: 10px;
+	font-size: calc(0.3rem + 2vw);
+	font-weight: 300 !important;
+	line-height: 1.2;
+}
+
+.my-input {
+	margin: 10px;
+	font-weight: 300 !important;
+}
+
+.mb-auto {
+	margin-bottom: auto !important;
+}
+
+.mt-auto {
+	margin-top: auto !important;
+}
+
+.my-footer-text {
+	font-size: 0.5rem;
+	margin:1px auto;
+}
+
+.my-post-div {
+	margin: 30px auto;
+	border-bottom: double grey;
+}
+
+.my-post-info {
+	display: flex;
+	justify-content: space-around;
+	/*color:grey;*/
+}
+
+.my-post-info p {
+	display: inline !important;
+	font-size: 8px;
+}
+
+.my-post {
+	margin-top: 10px;
+}
+
+.my-post>h6 {
+	margin-bottom: 0px;
+	font-weight: 300 !important;
+	line-height: 1.2;
+	
+}
+
+.my-post>p {
+	font-size: 0.8rem;
+}
+
+.my-post-headline {
+	margin-top: 10px !important;
+}
+
+.display-5 {
+	font-size: calc(1.2rem + 1.1vw);
+}
+
+.display-6 {
+	font-size: calc(1rem + 1.1vw);
+}
