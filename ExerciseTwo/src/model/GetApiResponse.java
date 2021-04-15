@@ -23,7 +23,7 @@ public class GetApiResponse {
 
 		// Build the API call URL by adding city+country into a URL
 		String URLtoSend = "http://api.openweathermap.org/data/2.5/weather?q=" + wBean.getCityStr() + ","
-				+ wBean.getCountryStr() + "&APPID=75266191928921c5cabd5749e6368356&mode=xml";
+				+ wBean.getCountryStr() + "&APPID=<KEY>&mode=xml";
 
 
 		// Set the URL that will be sent
